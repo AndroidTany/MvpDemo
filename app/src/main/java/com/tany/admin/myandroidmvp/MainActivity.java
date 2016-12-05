@@ -54,7 +54,8 @@ public class MainActivity extends AppCompatActivity implements IView{
                 mPresenter.setLogin(etLoginUsername.getText().toString(), etLoginPassword.getText().toString());
                 break;
             case R.id.btn_login_clear:
-                onClesrText();
+//                onClesrText();
+                startActivity(new Intent(MainActivity.this,WaveActivity.class));
                 break;
             case R.id.btn_xian:
                 startActivity(new Intent(MainActivity.this,MoreTabActivity.class).putExtra("type",1));

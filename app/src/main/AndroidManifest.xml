@@ -23,6 +23,10 @@
         <activity android:name=".CommentActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".WaveActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

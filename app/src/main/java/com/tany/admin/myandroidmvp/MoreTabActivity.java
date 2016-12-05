@@ -190,8 +190,12 @@ public class MoreTabActivity extends FragmentActivity {
      * @param dip
      * @return
      */
-    private int dipToPix(float dip) {
+    public int dipToPix(float dip) {
         int size = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dip, getResources().getDisplayMetrics());
         return size;
+    }
+
+    public void userCommit(){
+
     }
 }
